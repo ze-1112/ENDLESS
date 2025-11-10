@@ -1,94 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-     <title> ENDLESS</title>
-     <link rel="stylesheet" href="my website1.css">
+  <meta charset="UTF-8">
+  <title>ENDLESS</title>
+  <link rel="stylesheet" href="my website1.css">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
-<body style="background-color: black;">
-<h1>ENDLESS</h1>
-<img src="media/ENDLESS BLACK.jpeg" title="ENDLESS" height="200">
+<body>
+  <div class="main-frame">
+    <h1>ENDLESS</h1>
+    <img id="albumArt" src="media/ENDLESS BLACK.jpeg" title="ENDLESS" height="200">
+    <h3 class="hello">By Frank Ocean</h3>
 
-<h3 class="hello" style="color:aliceblue;">By Fank Ocean</h3>
+    
+      <div class="controls">
+  <button id="playPauseBtn" class="play_pause">
+    <span class="material-symbols-outlined">play_arrow</span>
+  </button>
+
+  <button id="shuffleBtn" class="shuffle_on">
+    <span class="material-symbols-outlined">shuffle</span>
+  </button>
+
+  <button id="nextBtn" class="next_btn">
+    <span class="material-symbols-outlined">skip_next</span>
+  </button>
+</div>
+
+    </div>
+
+    <h3 id="currentTitle">Press Play</h3>
+
+    <audio id="player" controls></audio>
+  </div>
+
+  <script src="my website1.js"></script>
 </body>
-<br>
-<br>
-<button type="button">Play</button>
-
-<button type="button">Shuffle</button>
-<br>
-<br>
-<br>
-
-<h3>1. At Your Best (You Are Love)</h3>
-<audio loop controls src="media/01 At Your Best (You Are Love).mp3"></audio>
-
-<br>
-<h3>2.Alabama </h3>
-<audio controls src="media/02 Alabama.mp3"></audio>
-
-<br>
-<h3>3.mine</h3>
-<audio controls src="media/02 Alabama.mp3"></audio>
-
-<br>
-<!--
-<h3>4.UNITY</h3>
-<audio controls src="media/04 Unity.mp3"></audio>
--->
-<br>
-<h3>5.A Certain Way</h3>
-<audio controls src="media/05 A Certain Way.mp3"></audio>
-<br>
-<h3>6.Comme des Garçons</h3>
-<audio controls src="media/06 Comme des Garçons.mp3"></audio>
-<br>
-<h3>7.Xenons</h3>
-<audio controls src="media/07 Xenons.mp3"></audio>
-<br>
-<h3>8.Honeybaby</h3>
-<audio controls src="media/08 Honeybaby.mp3"></audio>
-<br>
-<!--
-<h3>9.Wither</h3>
-<audio controls src="media/18 Higgs.mp3"></audio>
-<br>
-<h3>10.Hublots</h3>
-<audio controls src="media/18 Higgs.mp3"></audio>
-<br>
--->
-<h3>11.In Here Somewhere</h3>
-<audio controls src="media/11 In Here Somewhere.mp3"></audio>
-<br>
-<h3>12.Slide On Me</h3>
-<audio controls src="media/12 Slide on Me.mp3"></audio>
-<br><!--
-<h3>13.Sideways</h3>
-<audio controls src="media/18 Higgs.mp3"></audio>
-<br>-->
-<h3>14.Florida</h3>
-<audio controls src="media/14 Florida.mp3"></audio>
-<br>
-
-<!--
-<h3>15.Deathwish</h3>
-<audio controls src="media/18 Higgs.mp3"></audio>
-<br>
-<h3>16.Rushes</h3>
-<audio controls src="media/.mp3"></audio>
-<br>-->
-<!--
-<h3>17.Rushes to</h3>
-<audio controls src="media/18 Higgs.mp3"></audio>
--->
-<br>
-<h3>18.Higgs</h3>
-<audio controls src="media/18 Higgs.mp3"></audio>
-<br>
-<!--
-<h3>19.Mitsubishi sony</h3>
-<audio controls src="media/18 Higgs.mp3"></audio>
--->
-<script src="my website1.js"></script>
-
-
 </html>
