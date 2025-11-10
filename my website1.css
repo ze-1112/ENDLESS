@@ -2,6 +2,11 @@
 * {
     box-sizing: border-box;
 }
+.pagex{
+     color: aliceblue;
+     font-size: larger;
+     border-radius: 50px;
+}
 
 .play-pause{
     text-align: center;
