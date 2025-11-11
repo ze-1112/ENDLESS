@@ -13,6 +13,8 @@ const tracks = [
   { title: "Comme des Garçons", src: "media/06 Comme des Garçons.mp3" },
   { title: "Xenons", src: "media/07 Xenons.mp3" },
   { title: "Honeybaby", src: "media/08 Honeybaby.mp3" },
+  { title: "Wither", src: "media/09 Wither.mp3" },
+  { title: "Hublots", src: "media/10 Hublots.mp3" },
   { title: "In Here Somewhere", src: "media/11 In Here Somewhere.mp3" },
   { title: "Slide On Me", src: "media/12 Slide on Me.mp3" },
   { title: "Florida", src: "media/14 Florida.mp3" },
@@ -85,3 +87,4 @@ nextBtn.addEventListener("click", () => {
   }
   playTrack(currentTrack);
 });
+
