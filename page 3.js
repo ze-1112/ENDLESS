@@ -8,11 +8,11 @@ const albumArt = document.getElementById("albumArt");
 const tracks = [ 
   { title: "Mo City Flexologist", src: "page3/01. Mo City Flexologist.mp3" },
   { title: "Too Many Chances", src: "page3/02. Too Many Chances.mp3" },
-  { title: "Yeah Yeah", src: "page3/03. Yeah yeah(feat. Young Thug).mp3" },
+  { title: "Yeah Yeah", src: "page3/03. Yeah Yeah (feat. Young Thug).mp3" },
   { title: "Seranade", src: "page3/04. Serenade.mp3" },
   { title: "whole lots changed", src: "page3/05. Whole Lots Changed.mp3" },
-  { title: "Yeah Yeah", src: "page3/03. Yeah yeah(feat. Young Thug)" },
-  { title: "Yeah Yeah", src: "page3/03. Yeah yeah(feat. Young Thug)" },
+  { title: "Hold On", src: "page3/06. Hold On (feat. Quavo & Young Thug).mp3" },
+  { title: "Respected", src: "page3/07. Respected.mp3" },
   { title: "Yeah Yeah", src: "page3/03. Yeah yeah(feat. Young Thug)" },
 
 
